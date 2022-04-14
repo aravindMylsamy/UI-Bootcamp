@@ -13,14 +13,27 @@
             justify-content: left;
             padding-left: 20px;
         }
-        
+        .top-bottom{
+            display:flex;
+            font-size: 14px;
+            text-align: center;
+            color: black;
+            background: rgb(5, 241, 143);
+            height: 50px;
+            justify-content: center;
+        }
+        #navigation{
+            display: flex;
+            justify-content: flex-end;
+            margin: 10px;
+        }
     </style>
   </head>
   <body>
-     <header>
+     <header id="header"  class="top-bottom">
          <h2>Movie Booking App</h2> 
      </header>
-     <nav>
+     <nav id="navigation">
         <label for="languages">Choose your languages:</label>
         <input list="language" name="language" id="languages">
         <datalist id="language">
@@ -32,7 +45,7 @@
      </nav>
      <br><br>
      <main class="grid-container">
-        <section>
+        <section id="beast-section" class="movie-section">
             <img src="https://img.ticketnew.com/tn/movie/24508/7.jpg?479925&x-oss-process=image/resize,m_mfit,w_330,h_400/quality,q_80.jpg" alt="BEAST" width="330" height="400">
             <details>
                 <summary>Movie Plot</summary>
@@ -40,7 +53,7 @@
                     Can Veera rescue all the hostages in time?</p>
             </details>
         </section><br><br>
-        <section>
+        <section id="kgf-section" class="movie-section">
             <img src="https://img.ticketnew.com/tn/movie/24524/7.jpg?3320427&x-oss-process=image/resize,m_mfit,w_330,h_400/quality,q_80.jpg" alt="KGF CHAPTER 2" width="330" height="400">
             <details>
                 <summary>Movie Plot</summary>
@@ -49,7 +62,7 @@
                     Bloodier battles and darker days await as Rocky continues on his quest for unchallenged supremacy.</p>
             </details>
         </section><br><br>
-        <section>
+        <section id="rrr-section" class="movie-section">
             <img src="https://img.ticketnew.com/tn/movie/24115/7.jpg?6385616&x-oss-process=image/resize,m_mfit,w_330,h_400/quality,q_80.jpg" alt="RRR" width="330" height="400">
             <details>
                 <summary>Movie Plot</summary>
@@ -57,8 +70,8 @@
             </details>
         </section><br><br>
      </main>
-     <footer>
-        <b>Copyright &copy; 2022 - 2023</b>
+     <footer id="footer" class="top-bottom">
+        <h3>Copyright &copy; 2022 - 2023</h3>
     </footer>
   </body>
 </html>
