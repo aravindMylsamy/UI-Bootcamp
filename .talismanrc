@@ -1,0 +1,6 @@
+fileignoreconfig:
+- filename: Day 3/jsAssignmentTwo.js
+  checksum: 954082be3c2f382a2afed6e84a351c18e5e5ec6ed514c0ef46a8af9571ddf768
+- filename: Day 3/jsAssignmentOne.js
+  checksum: 0aeb7fec92e89a10282192930f782582a42a9f38b2614b9781a2e0cb004bef2c
+version: ""

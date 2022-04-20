@@ -26,4 +26,4 @@ const stringify = (object) => {
 
   };
 
-  console.log(stringify(bioData));
+ 
