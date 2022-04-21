@@ -1,32 +1,10 @@
+.App {
+  text-align: center;
+}
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
-.App{
-  align-content: center;
-  border:2px solid red;
-  height:500px;;
-  width:100%;
-  margin:10px;
-}
-
-.App div {
-  height:inherit;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-
-.App div input {
-  width:50%;
-  padding:20px;
-}
-
-.App div button {
-  width:50%;
-  padding:10px;
 }
 
 @media (prefers-reduced-motion: no-preference) {

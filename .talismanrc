@@ -1,6 +1,29 @@
+# fileignoreconfig:
+# - filename: Day 3/jsAssignmentTwo.js
+#   checksum: 954082be3c2f382a2afed6e84a351c18e5e5ec6ed514c0ef46a8af9571ddf768
+# - filename: Day 3/jsAssignmentOne.js
+#   checksum: 0aeb7fec92e89a10282192930f782582a42a9f38b2614b9781a2e0cb004bef2c
+# - filename: react-bootcamp/package-lock.json
+#   checksum: 0e857d73fa570e86bd7ff0d08f3686f13323ae7e9f6e1c3e6eefc773342a688f
+# - filename: react-bootcamp/src/App.js
+#   checksum: 32bc6f8e539c3b18a8ecae1142ddc134f8c931565dabd515d738373b8cf38738
+# - filename: movie-booking-react/package-lock.json
+#   checksum: 46e62f8314b250b3787302cdd3c05bb5c2483514ac94290779374ad996433ace
+# - filename: react-movie/package-lock.json
+#   checksum: e0bed3505bf9f0e43e2a7cffce412489f69d5772bbe4137ecbe04056f97c5cb6
+# - filename: react-bootcamp/src/App.js
+#   checksum: a5ba7a44928465ab6e40b7e69435ddc381de96537a6315113d276c87c2c43d8c
+# - filename: react-movie/src/App.js
+#   checksum: 45a7e07872c9ef7a9c6cdd0fe90179b78e4e7097d840ca15ae6d8b390ae8dd1f
+# version: ""
+
 fileignoreconfig:
-- filename: Day 3/jsAssignmentTwo.js
-  checksum: 954082be3c2f382a2afed6e84a351c18e5e5ec6ed514c0ef46a8af9571ddf768
-- filename: Day 3/jsAssignmentOne.js
-  checksum: 0aeb7fec92e89a10282192930f782582a42a9f38b2614b9781a2e0cb004bef2c
+- filename: movie-booking-react/package-lock.json
+  checksum: 46e62f8314b250b3787302cdd3c05bb5c2483514ac94290779374ad996433ace
+- filename: react-movie/package-lock.json
+  checksum: e0bed3505bf9f0e43e2a7cffce412489f69d5772bbe4137ecbe04056f97c5cb6
+- filename: react-movie/src/App.js
+  checksum: 45a7e07872c9ef7a9c6cdd0fe90179b78e4e7097d840ca15ae6d8b390ae8dd1f
+- filename: react-bootcamp/src/App.js
+  checksum: a5ba7a44928465ab6e40b7e69435ddc381de96537a6315113d276c87c2c43d8c
 version: ""
