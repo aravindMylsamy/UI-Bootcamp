@@ -17,13 +17,23 @@
 #   checksum: 45a7e07872c9ef7a9c6cdd0fe90179b78e4e7097d840ca15ae6d8b390ae8dd1f
 # version: ""
 
+# fileignoreconfig:
+# - filename: movie-booking-react/package-lock.json
+#   checksum: 46e62f8314b250b3787302cdd3c05bb5c2483514ac94290779374ad996433ace
+# - filename: react-movie/package-lock.json
+#   checksum: e0bed3505bf9f0e43e2a7cffce412489f69d5772bbe4137ecbe04056f97c5cb6
+# - filename: react-movie/src/App.js
+#   checksum: 45a7e07872c9ef7a9c6cdd0fe90179b78e4e7097d840ca15ae6d8b390ae8dd1f
+# - filename: react-bootcamp/src/App.js
+#   checksum: a5ba7a44928465ab6e40b7e69435ddc381de96537a6315113d276c87c2c43d8c
+# fileignoreconfig:
+# - filename: react-movie/src/App.js
+#   checksum: e098469e9e94285ca2fa13ca750dae1c923530124689f83e59c71056b7f08071
+# version: ""
+
 fileignoreconfig:
-- filename: movie-booking-react/package-lock.json
-  checksum: 46e62f8314b250b3787302cdd3c05bb5c2483514ac94290779374ad996433ace
-- filename: react-movie/package-lock.json
-  checksum: e0bed3505bf9f0e43e2a7cffce412489f69d5772bbe4137ecbe04056f97c5cb6
+- filename: movie-advanced/package-lock.json
+  checksum: 13888ffe6b89896c8ad4dbe63e0643abe5ea6e384bff22df7cb29d53647e0808
 - filename: react-movie/src/App.js
-  checksum: 45a7e07872c9ef7a9c6cdd0fe90179b78e4e7097d840ca15ae6d8b390ae8dd1f
-- filename: react-bootcamp/src/App.js
-  checksum: a5ba7a44928465ab6e40b7e69435ddc381de96537a6315113d276c87c2c43d8c
+  checksum: a7866b095c49fa58323ba123b8ca7ba6378e2c1385fe408b644866ed1f020978
 version: ""

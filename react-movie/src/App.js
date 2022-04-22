@@ -10,7 +10,8 @@ function App() {
   const [movies, setMovies] = useState([]);
   const [filterMovies,setFilterMovies]= useState([]);
   const moviesRef = useRef([]);
-
+  const testRef = useRef(null);
+  
   //console.log("movie");
 
   useEffect(() =>{
@@ -29,11 +30,21 @@ function App() {
     };
   },[])
 
+  useEffect(() =>{
+    // let name= document.getElementById('AskThisOldHouse');
+    if(testRef.current!=null)
+    testRef.current.scrollIntoView({behavior: 'smooth'});
+    console.log(testRef.current);
+  },[filterMovies])
+
   const sortAscending = () =>{
-   // console.log("sortAscending");
+   console.log("sortAscending");
     let sortedMovies = filterMovies.sort((movieOne,movieTwo) => movieOne.show.name > movieTwo.show.name? 1 : -1);
     console.log(sortedMovies);
     setFilterMovies([...sortedMovies]);
+    let name= document.getElementById('AskThisOldHouse');
+    name.scrollIntoView({behavior: 'smooth'});
+    console.log(name);
   }
 
   const sortDescending = () =>{
@@ -93,8 +104,10 @@ function App() {
          <div className="flex-container" id="movie-list">  
             
             {filterMovies.map((movie,index) => (
-              
-              <MovieDisplay movie={movie} key={index} />
+              movie.show.name.replaceAll(" ","") === 'NakedNews' ?
+              <MovieDisplay movie={movie} key={index} innerRef={testRef} />:
+              <MovieDisplay movie={movie} key={index}/>
+
             ))}
             
          </div>
